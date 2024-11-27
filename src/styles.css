@@ -53,6 +53,10 @@ form {
     margin-bottom: 40px;
 }
 
+.poem strong {
+    color: yellowgreen;
+}
+
 .submit-button{
     background: linear-gradient(109.6deg, rgb(255, 219, 47) 11.2%, rgb(244, 253, 0) 100.2%);
     border: 1px strong yellowgreen;
