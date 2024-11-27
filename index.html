@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Protest+Revolution&family=Sevillana&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
     <div class="container">
@@ -17,7 +18,7 @@
     <h1>AI poem generator</h1>
     </header>
     <main>
-        <form action="">
+        <form action="" id="poem-generator-form">
             <input type="text" placeholder="Enter topic of poem"
             required
             autofocus
@@ -25,10 +26,7 @@
             class="instructions"/>
             <input type="Submit" value="Submit" class="submit-button"/>
         </form>
-        <div class="poem">
-            The poem will be here <br/>
-            Just right here
-        </div>
+        <div class="poem" id="poem"></div>
     </main>
      <footer>This AI project was coded by 
         <a href="https://github.com/FelicityNyoni" target="_blank"><strong>Felicity</strong></a> and is 
