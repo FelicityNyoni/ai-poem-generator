@@ -24,7 +24,7 @@ footer{
     background-color: white;
     border-radius: 10px;
     box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.8);
-    padding: 40px 100px;
+    padding: 30px;
     margin-bottom: 40px;
 }
 
@@ -47,9 +47,10 @@ form {
 .instructions {
     border: 1px solid yellowgreen;
     border-radius: 50px;
-    font-size: 14px;
-    line-height: 4px;
-    padding: 18px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    padding: 15px 20px;
     width: 80%;
     
 }
@@ -87,9 +88,9 @@ form {
 
 .submit-button{
     background: linear-gradient(109.6deg, rgb(255, 219, 47) 11.2%, rgb(244, 253, 0) 100.2%);
-    border: 1px strong yellowgreen;
+    border: none;
     border-radius: 50px;
     color: white;
-    padding: 20px 40px;
+    padding: 14px 24px;
     margin-left: 10px;
 }
